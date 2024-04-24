@@ -11,12 +11,23 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	
+	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
+	'172.64.204.17',
+	'104.19.43.242',
+	'172.64.161.233',
+	'104.16.10.35',
+	'104.18.11.178',
+	'104.17.240.97',
+	'104.19.150.175',
+	'172.65.247.42',
+	'162.159.138.202',
+	'104.16.186.141',
 	// 'www.visa.com.sg#官方优选域名',
 	// 'www.wto.org:8080#官方优选域名',
 	// 'www.who.int:8880#官方优选域名',
