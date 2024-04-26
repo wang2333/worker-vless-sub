@@ -5,19 +5,6 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	// 'icook.tw:2053#官方优选域名',
-	// 'cloudflare.cfgo.cc#优选官方线路',
-];
-
-// 设置优选地址api接口
-let addressesapi = [
-	
-	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
-];
-
-// 设置优选地址，不带端口号默认80，noTLS订阅生成
-let addressesnotls = [
 	'104.17.160.97:2083#123',
 	'104.18.42.246:443#123',
 	'104.16.144.148:443#123',
@@ -38,6 +25,19 @@ let addressesnotls = [
 	'172.64.159.213:8443#123',
 	'172.64.152.33:8443#123',
 	'172.64.156.83:2087#123',
+	// 'icook.tw:2053#官方优选域名',
+	// 'cloudflare.cfgo.cc#优选官方线路',
+];
+
+// 设置优选地址api接口
+let addressesapi = [
+	
+	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	// 'https://raw.githubusercontent.com/wang2333/worker-vless-sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+];
+
+// 设置优选地址，不带端口号默认80，noTLS订阅生成
+let addressesnotls = [
 	// 'www.visa.com.sg#官方优选域名',
 	// 'www.wto.org:8080#官方优选域名',
 	// 'www.who.int:8880#官方优选域名',
